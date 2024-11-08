@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="manifest" href="icons/site.webmanifest" crossorigin="use-credentials">
     <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="icons/favicon.ico">
     <meta name="msapplication-TileColor" content="#1d1f20">
@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="./vender/scrollbar/jquery.scrollbar.css">
     <link rel="stylesheet" href="./vender/keypad/style.css">
 
-    <link rel="stylesheet" href="css/app.css?v=4.26">
+    <link rel="stylesheet" href="css/app.css?v=4.38">
 </head>
 <body>
     <div class="welcome"></div>
@@ -47,7 +47,6 @@
     <script src="./vender/scrollbar/jquery.scrollbar.js"></script>
     <script src="./vender/navigator/navigator.js"></script>
     <script src="./vender/keypad/keypad.js"></script>
-    <script src="//www.youtube.com/iframe_api" async></script>
 
     <script>
     function putScript(scripts){
@@ -93,5 +92,7 @@
 
     putScript('app.min.js?v=' + Math.random());
     </script>
+
+    <script src="//www.youtube.com/iframe_api" async></script>
 </body>
 </html>
