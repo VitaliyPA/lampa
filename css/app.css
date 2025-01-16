@@ -2743,7 +2743,7 @@ body.settings--open .settings__layer {
     width: 25%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .card--category {
     width: 33.3%;
   }
@@ -4664,10 +4664,15 @@ video::-webkit-media-controls-panel-container {
 }
 
 body.platform--browser .player-video__paused,
+body.platform--browser .player-video__loader,
 body.platform--nw .player-video__paused,
+body.platform--nw .player-video__loader,
 body.glass--style.platform--apple .player-video__paused,
+body.glass--style.platform--apple .player-video__loader,
 body.glass--style.platform--apple_tv .player-video__paused,
-body.glass--style.platform--android .player-video__paused {
+body.glass--style.platform--apple_tv .player-video__loader,
+body.glass--style.platform--android .player-video__paused,
+body.glass--style.platform--android .player-video__loader {
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-backdrop-filter: blur(1em);
           backdrop-filter: blur(1em);
@@ -6436,8 +6441,8 @@ body.selectbox--open .selectbox__layer {
 }
 @media screen and (max-width: 480px) {
   .category-full .card {
-    padding-left: 0.375em;
-    padding-right: 0.375em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
 .category-full__more {
@@ -7885,6 +7890,10 @@ body.true--mobile .simple-keyboard--with-mic .simple-keyboard-buttons {
   padding: 0.6em;
   background: #fff;
   margin-bottom: 1.8em;
+  opacity: 0;
+}
+.account-add-device.loaded .account-add-device__qr {
+  opacity: 1;
 }
 
 .cub-premium {
