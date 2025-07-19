@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    return;
+    //return;
 	
     if (window.location.protocol == 'http:') {
 		//localStorage.setItem( 'cub_domain', "cub.freebie.tom.ru" );
