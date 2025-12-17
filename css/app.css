@@ -226,7 +226,7 @@ body {
   -webkit-touch-callout: none !important;
 }
 body.black--style {
-  background: #000;
+  background: #000 !important;
 }
 @media screen and (max-width: 480px) {
   body.black--style .selectbox__content,
@@ -4821,7 +4821,7 @@ body.true--mobile .full-episode .full-episode__body {
   padding-left: 1em;
   padding-top: 0.6em;
 }
-.card-episode .full-episode__img {
+.card-episode .full-episode__img--loaded {
   background-color: transparent;
 }
 .card-episode .full-episode__img--loaded img {
@@ -4846,9 +4846,6 @@ body.true--mobile .full-episode .full-episode__body {
      -moz-border-radius: 1.4em;
           border-radius: 1.4em;
   pointer-events: none;
-}
-.card-episode + .card-episode {
-  margin-left: 1em;
 }
 
 .player {
@@ -6155,6 +6152,11 @@ body.true--mobile .player-info .head-backward__title {
 body.true--mobile .player-info .head-backward__button {
   left: -1.5em;
   top: -0.9em;
+}
+@media screen and (max-width: 480px) {
+  body.true--mobile .player-info .head-backward__button {
+    left: 0;
+  }
 }
 
 .player.iptv .player-info__name {
