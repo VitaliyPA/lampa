@@ -26,6 +26,7 @@ export default {
     search_searching: 'Căutare în curs...',
     search_start: 'Pentru a începe căutarea',
     search_nofound: 'Nu s-a găsit nimic conform solicitării tale.',
+	global_search: 'Căutare globală',
 
     full_genre: 'Gen',
     full_production: 'Producție',
@@ -158,10 +159,8 @@ export default {
     settings_player_reset_descr: 'Resetează player-ul Android selectat în aplicație',
     settings_player_path: 'Cale către player',
     settings_player_path_descr: 'Specifică calea către executabilul player-ului (.exe)',
-    settings_player_vlc_header: 'Setări VLC',
-    settings_player_vlc_api_password: 'Parolă API VLC',
-    settings_player_vlc_api_password_descr: 'Implicit: 123456',
-    settings_player_vlc_fullscreen: 'Lansare în modul pe tot ecranul',
+    settings_player_external_header: 'Player extern',
+    settings_player_external_fullscreen: 'Lansare în modul pe tot ecranul',
     settings_player_normalization: 'Normalizare sunet',
     settings_player_normalization_descr: 'Normalizează sunetul la un singur nivel, scade sunetele puternice și le amplifică pe cele încet.',
     settings_player_next_episode: 'Următorul episod',
@@ -283,7 +282,7 @@ export default {
     torrent_parser_voice_amateur: 'Amator',
     torrent_parser_reset: 'Resetează filtrul',
     torrent_parser_empty: 'Nu s-au găsit rezultate',
-    torrent_parser_no_hash: 'Eșec la obținerea HASH-ului',
+    torrent_parser_no_hash: 'Eșec la obținerea HASH-ului, încearcă să reîncarci TorrServer',
     torrent_parser_added_to_mytorrents: 'adăugat la "Torrentele mele"',
     torrent_parser_add_to_mytorrents: 'Adaugă la "Torrentele mele"',
     torrent_parser_label_title: 'Marcaj',
@@ -1285,4 +1284,28 @@ export default {
     filter_keyword_spy: 'Spionaj',
     filter_keyword_disaster: 'Catastrofă', 
     filter_keyword_christmas: 'Crăciun',
+
+    dmca_title_lgbt: 'Conținut restricționat',
+    dmca_descr_lgbt: 'Vizualizarea nu este disponibilă în regiunea dvs., deoarece poate include conținut LGBT. Un astfel de material poate fi interzis sau restricționat în unele țări.',
+
+    settings_lgbt_content_block: 'Blocați conținutul LGBT',
+
+    // todo:
+    adult_content_title: 'Conținut pentru adulți',
+    adult_content_text_warning: 'Conținutul poate include material pentru adulți care poate fi inadecvat pentru unii spectatori.',
+    adult_content_text_modal: 'Acest film sau serial este marcat ca conținând conținut pentru adulți. Trebuie să aveți cel puțin 18 ani pentru a viziona acest material. Vă rugăm să confirmați că aveți vârsta legală pentru a continua vizionarea.',
+
+    adult_content_confirm: 'Am 18 ani sau mai mult',
+    adult_content_deny: 'Am sub 18 ani',
+
+    inner_player_disclaimer_title: 'Avertisment player',
+    inner_player_disclaimer_text: 'Înțeleg că pornesc un player cu suport incomplet și înțeleg că acest lucru poate duce la comportament atipic pe dispozitiv. Este recomandat să treceți la playere din familia tvOS sau la alte alternative.',
+
+    inner_player_disclaimer_change_player: 'Schimbă playerul',
+    remote_configuration_settings_title: 'Configurare de la distanță',
+    remote_configuration_registration_text: 'Configurarea de la distanță oferă acces temporar la aplicația dvs., o altă aplicație va putea instala extensii și configura parametrii.',
+    remote_configuration_waite_text: 'Acum puteți transmite acest cod unei alte aplicații pentru a acorda acces la setări.',
+    remote_configuration_open_button: 'Deschide accesul',
+    remote_configuration_code_life: 'Codul este valabil',
+    remote_configuration_notice_nocode: 'Nu s-a putut deschide accesul'
 }

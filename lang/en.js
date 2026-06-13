@@ -26,6 +26,7 @@ export default {
     search_searching: 'Search in progress...',
     search_start: 'To start searching',
     search_nofound: 'Nothing was found according to your request.',
+	global_search: 'Global search',
 
     full_genre: 'Genre',
     full_production: 'Production',
@@ -158,10 +159,8 @@ export default {
     settings_player_reset_descr: 'Resets the selected Android player in the application',
     settings_player_path: 'Path to the player',
     settings_player_path_descr: 'Specify the path to the player .exe',
-    settings_player_vlc_header: 'VLC Settings',
-    settings_player_vlc_api_password: 'Password VLC API',
-    settings_player_vlc_api_password_descr: 'Default: 123456',
-    settings_player_vlc_fullscreen: 'Launch in fullscreen mode',
+    settings_player_external_header: 'External player',
+    settings_player_external_fullscreen: 'Launch in fullscreen mode',
     settings_player_normalization: 'Sound normalization',
     settings_player_normalization_descr: 'Normalizes sound to one level, lowers loud sounds and boosts quiet ones.',
     settings_player_next_episode: 'Next episode',
@@ -283,7 +282,7 @@ export default {
     torrent_parser_voice_amateur: 'Amateur',
     torrent_parser_reset: 'Reset filter',
     torrent_parser_empty: 'Failed to get results',
-    torrent_parser_no_hash: 'Failed to get HASH',
+    torrent_parser_no_hash: 'Failed to get HASH, try reloading TorrServer',
     torrent_parser_added_to_mytorrents: 'added to "My torrents"',
     torrent_parser_add_to_mytorrents: 'Add to "My torrents"',
     torrent_parser_label_title: 'Flag',
@@ -1286,4 +1285,28 @@ export default {
     filter_keyword_spy: 'Spy',
     filter_keyword_disaster: 'Catastrophe', 
     filter_keyword_christmas: 'Christmas',
+
+    dmca_title_lgbt: 'Content Restricted',
+    dmca_descr_lgbt: 'Viewing is unavailable in your region as it may contain LGBT content. Such material may be prohibited or restricted in some countries.',
+
+    settings_lgbt_content_block: 'Block LGBT content',
+
+    // todo:
+    adult_content_title: 'Adult Content',
+    adult_content_text_warning: 'Content may contain adult material that may be inappropriate for some viewers.',
+    adult_content_text_modal: 'This film or series is marked as containing adult content. You must be 18 years of age or older to view this material. Please confirm that you are of legal age to continue viewing.',
+
+    adult_content_confirm: 'I am 18 or older',
+    adult_content_deny: 'I am under 18',
+
+    inner_player_disclaimer_title: 'Player Disclaimer',
+    inner_player_disclaimer_text: 'I understand that I am launching a player with incomplete support, and I understand that this may cause atypical behavior on the device. It is recommended to switch to tvOS family players or other alternatives.',
+
+    inner_player_disclaimer_change_player: 'Change player',
+    remote_configuration_settings_title: 'Remote Configuration',
+    remote_configuration_registration_text: 'Remote configuration provides temporary access to your application, another application will be able to install extensions and configure parameters.',
+    remote_configuration_waite_text: 'You can now pass this code to another application to grant access to settings.',
+    remote_configuration_open_button: 'Open Access',
+    remote_configuration_code_life: 'Code is valid',
+    remote_configuration_notice_nocode: 'Failed to open access'
 }

@@ -26,6 +26,7 @@ export default {
     search_searching: 'Търсенето е в ход...',
     search_start: 'За да започнете търсене',
     search_nofound: 'Нищо не беше намерено според вашата заявка.',
+	global_search: 'Глобално търсене',
 
     full_genre: 'Жанр',
     full_production: 'Продукция',
@@ -157,10 +158,8 @@ export default {
     settings_player_reset_descr: 'Нулира избрания Android плейър в приложението',
     settings_player_path: 'Път до плейъра',
     settings_player_path_descr: 'Укажете пътя до плейър.exe',
-    settings_player_vlc_header: 'Настройки на VLC',
-    settings_player_vlc_api_password: 'Парола за VLC API',
-    settings_player_vlc_api_password_descr: 'По подразбиране: 123456',
-    settings_player_vlc_fullscreen: 'Стартиране в пълен екран',
+    settings_player_external_header: 'Външен плейър',
+    settings_player_external_fullscreen: 'Стартиране в пълен екран',
     settings_player_normalization: 'Нормализация на звука',
     settings_player_normalization_descr: 'Нормализира звука до едно ниво, понижава силните звуци и усилва тихите.',
     settings_player_next_episode: 'Следващ епизод',
@@ -282,7 +281,7 @@ export default {
     torrent_parser_voice_amateur: 'Аматьорски',
     torrent_parser_reset: 'Нулиране на филтъра',
     torrent_parser_empty: 'Неуспешно получаване на резултати',
-    torrent_parser_no_hash: 'Неуспешно получаване на HASH',
+    torrent_parser_no_hash: 'Неуспешно получаване на HASH, опитайте да перезагрузите TorrServer',
     torrent_parser_added_to_mytorrents: 'Добавен в "Моите торенти"',
     torrent_parser_add_to_mytorrents: 'Добави в "Моите торенти"',
     torrent_parser_label_title: 'Флаг',
@@ -1287,4 +1286,28 @@ export default {
     filter_keyword_spy: 'Шпионин',
     filter_keyword_disaster: 'Катастрофа',
     filter_keyword_christmas: 'Коледа',
+
+    dmca_title_lgbt: 'Съдържание с ограничен достъп',
+    dmca_descr_lgbt: 'Преглеждането не е възможно във вашия регион, тъй като е възможно да съдържа ЛГБТ съдържание. Такива материали може да са забранени или ограничени в някои страни.',
+
+    settings_lgbt_content_block: 'Блокиране на ЛГБТ съдържание',
+
+    // todo:
+    adult_content_title: 'Съдържание за възрастни',
+    adult_content_text_warning: 'Съдържанието може да включва материали за възрастни, които може да са неподходящи за някои зрители.',
+    adult_content_text_modal: 'Този филм или сериал е маркиран като съдържащ съдържание за възрастни. Трябва да сте на 18 или повече години, за да гледате този материал. Моля, потвърдете, че сте навършили законовата възраст, за да продължите да гледате.',
+
+    adult_content_confirm: 'На 18 съм или повече',
+    adult_content_deny: 'Под 18 съм',
+
+    inner_player_disclaimer_title: 'Дисклеймър за плейъра',
+    inner_player_disclaimer_text: 'Разбирам, че стартирам плейър с непълна поддръжка, и разбирам, че това може да доведе до нетипично поведение на устройството. Оптимално е да преминете към плейъри от семейството tvOS или други алтернативи.',
+
+    inner_player_disclaimer_change_player: 'Смени плеъра',
+    remote_configuration_settings_title: 'Дистанционна конфигурация',
+    remote_configuration_registration_text: 'Дистанционната конфигурация предоставя временен достъп до вашето приложение, друго приложение ще може да инсталира разширения и да конфигурира параметри.',
+    remote_configuration_waite_text: 'Вече можете да предадете този код на друго приложение, за да му предоставите достъп до настройките.',
+    remote_configuration_open_button: 'Отвори достъп',
+    remote_configuration_code_life: 'Кодът е валиден',
+    remote_configuration_notice_nocode: 'Неуспешно отваряне на достъп'
 }

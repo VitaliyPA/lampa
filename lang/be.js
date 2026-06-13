@@ -26,6 +26,7 @@ export default {
     search_searching: 'Ідзе пошук...',
     search_start: 'Пачаць пошук',
     search_nofound: 'Па вашым запыце нічога не знойдзена.',
+	global_search: 'Сусветны пошук',
 
     full_genre: 'Жанр',
     full_production: 'Вытворчасць',
@@ -157,10 +158,8 @@ export default {
     settings_player_reset_descr: 'Скідае абраны Android плэер у дадатку',
     settings_player_path: 'Шлях да плэера',
     settings_player_path_descr: 'Укажыце шлях да плэера .exe',
-    settings_player_vlc_header: 'Налады VLC',
-    settings_player_vlc_api_password: 'Пароль VLC API',
-    settings_player_vlc_api_password_descr: 'Па змаўчанні: 123456',
-    settings_player_vlc_fullscreen: 'Запускать у поўнаэкранным рэжыме',
+    settings_player_external_header: 'Знешні плэер',
+    settings_player_external_fullscreen: 'Запускать у поўнаэкранным рэжыме',
     settings_player_normalization: 'Нармалізацыя гуку',
     settings_player_normalization_descr: 'Нармалізуе гук у адзін узровень, паніжае гучныя гукі і павялічвае ціхія.',
     settings_player_next_episode: 'Наступная серыя',
@@ -283,7 +282,7 @@ export default {
     torrent_parser_voice_amateur: 'Любіцельскі',
     torrent_parser_reset: 'Скінуць фільтр',
     torrent_parser_empty: 'Немагчыма атрымаць вынікаў',
-    torrent_parser_no_hash: 'Не атрымалася атрымаць HASH',
+    torrent_parser_no_hash: 'Не атрымалася атрымаць HASH, паспрабуйце перезагрузить TorrServer',
     torrent_parser_added_to_mytorrents: 'дададзена ў «Мае торэнты»',
     torrent_parser_add_to_mytorrents: 'Дадаць у «Мае торэнты»',
     torrent_parser_label_title: 'Пазначыць',
@@ -1301,4 +1300,28 @@ export default {
     filter_keyword_spy: 'Шпіён', 
     filter_keyword_disaster: 'Катастрофа', 
     filter_keyword_christmas: 'Каляды',
+
+    dmca_title_lgbt: 'Кантэнт абмежаваны',
+    dmca_descr_lgbt: 'Прагляд недаступны ў вашым рэгіёне, так як магчыма змяшчае ЛГБТ-кантэнт. У некаторых краінах такія матэрыялы могуць быць забаронены ці абмежаваны.',
+
+    settings_lgbt_content_block: 'Блокіроўка ЛГБТ-контента',
+
+    // todo:
+    adult_content_title: 'Кантэнт для дарослых',
+    adult_content_text_warning: 'Кантэнт можа змяшчаць матэрыялы для дарослых, якія могуць быць непрыдатнымі для некаторых гледачоў.',
+    adult_content_text_modal: 'Гэты фільм або серыял пазначаны як той, які змяшчае кантэнт для дарослых. Для прагляду гэтага матэрыялу вам павінна быць 18 гадоў ці болей. Калі ласка, пацвердзіце, што вы дасягнулі паўналецця, каб працягнуць прагляд.',
+
+    adult_content_confirm: 'Мне 18 гадоў ці болей',
+    adult_content_deny: 'Мне менш за 18 гадоў',
+
+    inner_player_disclaimer_title: 'Дысклеймер плэера',
+    inner_player_disclaimer_text: 'Я разумею, што запускаю плэер з няпоўнай падтрымкай, і разумею, што гэта можа выклікаць нетыповыя паводзіны прылады. Аптымальна перайсці на плэеры сямейства tvOS або іншыя альтэрнатывы.',
+
+    inner_player_disclaimer_change_player: 'Змяніць плэер',
+    remote_configuration_settings_title: 'Аддалёная канфігурацыя',
+    remote_configuration_registration_text: 'Аддалёная канфігурацыя забяспечвае часовы доступ да вашага прыкладання, іншае прыкладанне зможа ўсталёўваць пашырэнні і наладжваць параметры.',
+    remote_configuration_waite_text: 'Цяпер вы можаце перадаць гэты код іншаму прыкладанню, каб даць доступ да налад.',
+    remote_configuration_open_button: 'Адкрыць доступ',
+    remote_configuration_code_life: 'Код сапраўдны',
+    remote_configuration_notice_nocode: 'Не ўдалося адкрыць доступ'
 }

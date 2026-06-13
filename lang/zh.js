@@ -24,6 +24,7 @@ export default {
     search_searching: '搜索中...',
     search_start: '开始搜索',
     search_nofound: '根据您的要求没有找到相关内容。',
+	global_search: '全局搜索',
     full_genre: '类型',
     full_production: '出品公司',
     full_date_of_release: '发布日期',
@@ -146,10 +147,8 @@ export default {
     settings_player_reset_descr: '重置应用程序中选定的Android播放器',
     settings_player_path: '播放器路径',
     settings_player_path_descr: '指定播放器.exe的路径',
-    settings_player_vlc_header: 'VLC 设置',
-    settings_player_vlc_api_password: 'VLC API 密码',
-    settings_player_vlc_api_password_descr: '默认值：123456',
-    settings_player_vlc_fullscreen: '以全屏模式运行',
+    settings_player_external_header: '外部播放器',
+    settings_player_external_fullscreen: '以全屏模式运行',
     settings_player_normalization: '声音标准化',
     settings_player_normalization_descr: '将声音标准化为一级，降低响亮的声音并增强安静的',
     settings_player_next_episode: '下一集',
@@ -262,7 +261,7 @@ export default {
     torrent_parser_voice_amateur: '业余',
     torrent_parser_reset: '重置筛选',
     torrent_parser_empty: '获取结果失败',
-    torrent_parser_no_hash: '获取HASH失败',
+    torrent_parser_no_hash: '获取HASH失败,请尝试重新加载TorrServer',
     torrent_parser_added_to_mytorrents: '添加到“我的种子”',
     torrent_parser_add_to_mytorrents: '添加到“我的种子”',
     torrent_parser_label_title: '标记',
@@ -1236,4 +1235,28 @@ export default {
     filter_keyword_spy: '间谍',
     filter_keyword_disaster: '灾难',
     filter_keyword_christmas: '圣诞节',
+
+    dmca_title_lgbt: '内容受限',
+    dmca_descr_lgbt: '由于内容可能包含 LGBT 内容，您所在地区无法观看。此类内容在某些国家/地区可能被禁止或限制。',
+
+    settings_lgbt_content_block: '阻止 LGBT 内容',
+
+    // todo:
+    adult_content_title: '成人内容',
+    adult_content_text_warning: '内容可能包含不适合部分观众的成人内容。',
+    adult_content_text_modal: '该影片或剧集被标记为含有成人内容。您必须年满18岁才能观看此内容。请确认您已达到法定年龄以继续观看。',
+
+    adult_content_confirm: '我已满18岁',
+    adult_content_deny: '我未满18岁',
+
+    inner_player_disclaimer_title: '播放器免责声明',
+    inner_player_disclaimer_text: '我理解我正在启动一个支持不完整的播放器，并且我理解这可能会导致设备出现非典型行为。建议切换到 tvOS 系列播放器或其他替代方案。',
+
+    inner_player_disclaimer_change_player: '更换播放器',
+    remote_configuration_settings_title: '远程配置',
+    remote_configuration_registration_text: '远程配置提供对您应用程序的临时访问，其他应用程序将能够安装扩展并配置参数。',
+    remote_configuration_waite_text: '您现在可以将此代码传递给另一个应用程序，以授予对设置的访问权限。',
+    remote_configuration_open_button: '开放访问',
+    remote_configuration_code_life: '代码有效',
+    remote_configuration_notice_nocode: '无法开放访问'
 }

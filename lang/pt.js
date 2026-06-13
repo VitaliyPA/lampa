@@ -26,6 +26,7 @@ export default {
     search_searching: 'Procura em progresso...',
     search_start: 'Começar a pesquisar',
     search_nofound: 'Não encontrámos nada relacionado com a sua pesquisa.',
+	global_search: 'Pesquisa global',
 
     full_genre: 'Gênero',
     full_production: 'Produção',
@@ -156,10 +157,8 @@ export default {
     settings_player_reset_descr: 'Reinicia o player Android selecionado no aplicativo',
     settings_player_path: 'Caminho para o player',
     settings_player_path_descr: 'Especifique o caminho para o player .exe',
-    settings_player_vlc_header: 'Configurações do VLC',
-    settings_player_vlc_api_password: 'Senha VLC API',
-    settings_player_vlc_api_password_descr: 'Padrão: 123456',
-    settings_player_vlc_fullscreen: 'Iniciar em modo de tela cheia',
+    settings_player_external_header: 'Reprodutor externo',
+    settings_player_external_fullscreen: 'Iniciar em modo de tela cheia',
     settings_player_normalization: 'Normalização de som',
     settings_player_normalization_descr: 'Normaliza o som para um nível, diminui os sons altos e aumenta os silenciosos.',
     settings_player_next_episode: 'Próximo episódio',
@@ -281,7 +280,7 @@ export default {
     torrent_parser_voice_amateur: 'Amador',
     torrent_parser_reset: 'Redefinir filtro',
     torrent_parser_empty: 'Falha ao obter resultados',
-    torrent_parser_no_hash: 'Falha ao obter HASH',
+    torrent_parser_no_hash: 'Falha ao obter HASH, tente recarregar o TorrServer',
     torrent_parser_added_to_mytorrents: 'Adicionado a "Meus torrents"',
     torrent_parser_add_to_mytorrents: 'Adicionar a "Meus torrents"',
     torrent_parser_label_title: 'Sinalizador',
@@ -1271,4 +1270,28 @@ export default {
     filter_keyword_spy: 'Espião',
     filter_keyword_disaster: 'Catástrofe',
     filter_keyword_christmas: 'Natal',
+
+    dmca_title_lgbt: 'Conteúdo restrito',
+    dmca_descr_lgbt: 'A visualização não está disponível na sua região, pois pode conter conteúdo LGBT. Esse tipo de material pode ser proibido ou restrito em alguns países.',
+
+    settings_lgbt_content_block: 'Bloquear conteúdo LGBT',
+
+    // todo:
+    adult_content_title: 'Conteúdo adulto',
+    adult_content_text_warning: 'O conteúdo pode conter material adulto que pode ser inapropriado para alguns espectadores.',
+    adult_content_text_modal: 'Este filme ou série está marcado como contendo conteúdo adulto. Você deve ter 18 anos ou mais para assistir a este material. Por favor, confirme que você atingiu a maioridade para continuar assistindo.',
+
+    adult_content_confirm: 'Tenho 18 anos ou mais',
+    adult_content_deny: 'Tenho menos de 18 anos',
+
+    inner_player_disclaimer_title: 'Aviso do player',
+    inner_player_disclaimer_text: 'Entendo que estou iniciando um player com suporte incompleto e entendo que isso pode causar comportamento atípico no dispositivo. O ideal é mudar para players da família tvOS ou outras alternativas.',
+
+    inner_player_disclaimer_change_player: 'Mudar player',
+    remote_configuration_settings_title: 'Configuração Remota',
+    remote_configuration_registration_text: 'A configuração remota fornece acesso temporário ao seu aplicativo, outro aplicativo poderá instalar extensões e configurar parâmetros.',
+    remote_configuration_waite_text: 'Agora você pode passar este código para outro aplicativo para conceder acesso às configurações.',
+    remote_configuration_open_button: 'Abrir Acesso',
+    remote_configuration_code_life: 'O código é válido',
+    remote_configuration_notice_nocode: 'Falha ao abrir o acesso'
 }

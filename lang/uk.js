@@ -24,6 +24,7 @@ export default {
     search_searching: 'Йде пошук...',
     search_start: 'Розпочати пошук',
     search_nofound: 'На ваш запит нічого не знайдено.',
+	global_search: 'Глобальний пошук',
     full_genre: 'Жанр',
     full_production: 'Виробництво',
     full_date_of_release: 'Дата релізу',
@@ -69,7 +70,7 @@ export default {
     settings_input_links: 'Вибране',
     settings_interface_type: 'Полегшена версія',
     settings_interface_size: 'Розмір інтерфейсу',
-	settings_interface_menu_always: 'Always show the left menu',
+    settings_interface_menu_always: 'Завжди показувати ліве меню',
     settings_interface_background: 'Фон',
     settings_interface_background_use: 'Показувати фон',
     settings_interface_background_type: 'Тип фону',
@@ -148,10 +149,8 @@ export default {
     settings_player_reset_descr: 'Скидає вибраний Android плеєр у програмі',
     settings_player_path: 'Шлях до плеєра',
     settings_player_path_descr: 'Вкажіть шлях до програвача .exe.',
-    settings_player_vlc_header: 'Налаштування VLC',
-    settings_player_vlc_api_password: 'Пароль VLC API',
-    settings_player_vlc_api_password_descr: 'За замовчуванням: 123456',
-    settings_player_vlc_fullscreen: 'Запустити в повноекранному режимі',
+    settings_player_external_header: 'Зовнішній плеєр',
+    settings_player_external_fullscreen: 'Запустити в повноекранному режимі',
     settings_player_normalization: 'Нормалізація звуку',
     settings_player_normalization_descr: 'Нормалізує звук в один рівень, знижує гучні звуки та підвищує тихі.',
     settings_player_next_episode: 'Наступна серія',
@@ -264,7 +263,7 @@ export default {
     torrent_parser_voice_amateur: 'Аматорський',
     torrent_parser_reset: 'Скинути фільтр',
     torrent_parser_empty: 'Не вдалося отримати результатів',
-    torrent_parser_no_hash: 'Неможливо отримати HASH',
+    torrent_parser_no_hash: 'Неможливо отримати HASH, спробуйте перезавантажити TorrServer',
     torrent_parser_added_to_mytorrents: 'додано до «Моїх торрентів»',
     torrent_parser_add_to_mytorrents: 'Додати до «Моїх торентів»',
     torrent_parser_label_title: 'Позначити',
@@ -1238,6 +1237,7 @@ export default {
     account_profile_info: 'Ви можете керувати профілями в налаштуваннях облікового запису, для цього перейдіть на сайт <span class="account-modal__site">{site}/profiles</span>',
     player_youtube_no_support: 'Ваш пристрій не підтримує відтворення відео з YouTube, перевірте інтернет-з’єднання.',
     title_channels: 'Канали',
+    title_in_high_quality: 'У високій якості',
     title_best_of_2000: 'Золоті 2000-ті', 
     title_best_of_2010: 'Хіти 2010-х', 
     title_best_of_2015: 'Сучасна класика', 
@@ -1261,4 +1261,28 @@ export default {
     filter_keyword_spy: 'Шпигун', 
     filter_keyword_disaster: 'Катастрофа', 
     filter_keyword_christmas: 'Різдво',
+
+    dmca_title_lgbt: 'Контент обмежений',
+    dmca_descr_lgbt: 'Перегляд недоступний у вашому регіоні, оскільки, можливо, містить ЛГБТ-контент. У деяких країнах такі матеріали можуть бути заборонені або обмежені.',
+
+    settings_lgbt_content_block: 'Блокувати ЛГБТ контент',
+
+    // todo:
+    adult_content_title: 'Контент для дорослих',
+    adult_content_text_warning: 'Контент може містити матеріали для дорослих, які можуть бути неприйнятними для деяких глядачів.',
+    adult_content_text_modal: 'Цей фільм або серіал позначений як такий, що містить контент для дорослих. Для перегляду цього матеріалу вам має бути 18 років або більше. Будь ласка, підтвердіть, що ви досягли повноліття, щоб продовжити перегляд.',
+
+    adult_content_confirm: 'Мені 18 років або більше',
+    adult_content_deny: 'Мені менше 18 років',
+
+    inner_player_disclaimer_title: 'Дисклеймер плеєра',
+    inner_player_disclaimer_text: 'Я розумію, що запускаю плеєр, який має не повну підтримку, також розумію, що це може призводити до нетипової поведінки на пристрої. Оптимально перейти на плеєри сімейства tvOS або інші альтернативи.',
+
+    inner_player_disclaimer_change_player: 'Змінити плеєр',
+    remote_configuration_settings_title: 'Віддалена конфігурація',
+    remote_configuration_registration_text: 'Віддалена конфігурація надає тимчасовий доступ до вашого додатку, інший додаток зможе встановлювати розширення та налаштовувати параметри.',
+    remote_configuration_waite_text: 'Тепер ви можете передати цей код іншому додатку, щоб надати доступ до налаштувань.',
+    remote_configuration_open_button: 'Відкрити доступ',
+    remote_configuration_code_life: 'Код дійсний',
+    remote_configuration_notice_nocode: 'Не вдалося відкрити доступ'
 }
