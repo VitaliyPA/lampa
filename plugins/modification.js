@@ -1,8 +1,12 @@
 (function () {
     'use strict';
 
+    //Lampa. LGBT plugin
+    window.lampa_settings.disable_features.lgbt=true;
+
+
     return;
-	
+
     if (window.location.protocol == 'http:') {
 		//localStorage.setItem( 'cub_domain', "cub.freebie.tom.ru" );
 		//localStorage.setItem( 'cub_mirrors', '["cub.freebie.tom.ru", "cub.rip"]' );
@@ -40,7 +44,7 @@
         checkApiUrl,
         function(data){
             if (!!data && data.success === true) {
-                enableProxyApi = enableProxyImage = false;
+                //enableProxyApi = enableProxyImage = false;
                 console.log('App', 'TMDB proxy (from freebie) is disabled');
                 checkApiUrl = network = null;
             }
