@@ -213,6 +213,11 @@ export default {
     settings_server_login: 'Identifiant',
     settings_server_password: 'Mot de passe',
     settings_server_not_specified: 'Non spécifié',
+    settings_server_search_type: 'Type de recherche',
+    settings_server_search_type_descr: 'Où chercher les torrents : rutor intégré, indexeurs Torznab dans TorrServer, ou les deux.',
+    settings_param_torrserver_search_rutor: 'Rutor',
+    settings_param_torrserver_search_torznab: 'Torznab',
+    settings_param_torrserver_search_both: 'Rutor + Torznab',
 
     torent_nohash_reasons: 'Raisons possibles',
     torent_nohash_reason_one: 'TorrServer n\'a pas pu télécharger le fichier torrent',
@@ -1323,6 +1328,8 @@ export default {
 
     settings_server_gts: 'Transcodage',
     settings_server_gts_descr: 'Convertir automatiquement la vidéo dans un format compatible si nécessaire.',
+	settings_server_tracktimecode: 'Activer TrackTimecode',
+    settings_server_tracktimecode_descr: 'Enregistre la progression de lecture des films et séries sur le serveur TorrServer. Pour fonctionner, cette option doit également être activée dans TorrServer.',
 
     title_metadata: 'Métadonnées',
     title_moods: 'Ambiances',
@@ -1330,5 +1337,24 @@ export default {
     title_meta_fear: 'Peur',
     title_meta_profanity: 'Langage',
     title_meta_sadness: 'Tristesse',
-    title_meta_sex: 'Sexualité'
+    title_meta_sex: 'Sexualité',
+    player_pip: 'Réduire',
+    player_volume: 'Volume',
+    player_time_end: 'Se termine à',
+    player_ai_agent_info: "Vous souhaitez en savoir plus sur la vidéo ? Demandez à l'assistant AI et il vous fournira un graphique d'ambiances, un bref résumé et des moments forts.",
+    player_ai_agent_ask_plot: 'Résumé',
+    player_ai_agent_ask_moods: 'Afficher le graphique',
+    player_ai_agent_ask_highlights: 'Moments forts',
+    player_ai_agent_ask: 'Demander',
+    player_ai_agent_processing: 'Analyse en cours...',
+    player_ai_agent_no_data: 'Aucune donnée à afficher.',
+    player_ai_agent_no_analysis: "Impossible d'analyser la vidéo.",
+    player_ai_agent_quota: 'Limite de requêtes dépassée. Veuillez réessayer plus tard.',
+    player_ai_agent_working: 'Je travaille encore dessus...',
+    title_meta_humor: 'Humour',
+    title_meta_tension: 'Tension',
+    title_meta_romance: 'Romance',
+    title_meta_pace: 'Rythme',
+    title_meta_importance: 'Scènes clés',
+    title_meta_action: 'Action'
 }

@@ -213,6 +213,11 @@ export default {
     settings_server_login: 'Login',
     settings_server_password: 'Password',
     settings_server_not_specified: 'Not specified',
+    settings_server_search_type: 'Search type',
+    settings_server_search_type_descr: 'Where to look for torrents: built-in rutor, Torznab indexers in TorrServer, or both sources.',
+    settings_param_torrserver_search_rutor: 'Rutor',
+    settings_param_torrserver_search_torznab: 'Torznab',
+    settings_param_torrserver_search_both: 'Rutor + Torznab',
 
     torent_nohash_reasons: 'The reasons',
     torent_nohash_reason_one: 'TorServer was unable to download the torrent file',
@@ -1323,6 +1328,8 @@ export default {
 
     settings_server_gts: 'Transcoding',
     settings_server_gts_descr: 'Automatically convert video to a compatible format when needed.',
+	settings_server_tracktimecode: 'Enable TrackTimecode',
+    settings_server_tracktimecode_descr: 'Saves the playback progress of movies and TV shows on the TorrServer. This option must also be enabled in TorrServer for it to work.',
 
     title_metadata: 'Metadata',
     title_moods: 'Moods',
@@ -1330,5 +1337,24 @@ export default {
     title_meta_fear: 'Fear',
     title_meta_profanity: 'Profanity',
     title_meta_sadness: 'Sadness',
-    title_meta_sex: 'Sexuality'
+    title_meta_sex: 'Sexuality',
+    player_pip: 'Minimize',
+    player_volume: 'Volume',
+    player_time_end: 'Ends at',
+    player_ai_agent_info: 'Want to know more about the video? Ask the AI assistant and it will provide you with a mood chart, brief plot summary, and highlights.',
+    player_ai_agent_ask_plot: 'Brief plot',
+    player_ai_agent_ask_moods: 'Show chart',
+    player_ai_agent_ask_highlights: 'Highlights',
+    player_ai_agent_ask: 'Ask',
+    player_ai_agent_processing: 'Analyzing...',
+    player_ai_agent_no_data: 'No data to show.',
+    player_ai_agent_no_analysis: 'Could not analyze the video.',
+    player_ai_agent_quota: 'Request limit exceeded. Please try again later.',
+    player_ai_agent_working: 'Still working on it...',
+    title_meta_humor: 'Humor',
+    title_meta_tension: 'Tension',
+    title_meta_romance: 'Romance',
+    title_meta_pace: 'Pace',
+    title_meta_importance: 'Key scenes',
+    title_meta_action: 'Action'
 }
